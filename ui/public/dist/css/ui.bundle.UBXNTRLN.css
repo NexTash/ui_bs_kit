@@ -1,0 +1,111 @@
+/* ../../../../../tmp/tmp-3124-qaCP22gCV7y4/ui/ui/public/scss/ui.bundle.css */
+@font-face {
+  font-family: "Almarai";
+  src: url(/assets/ui/fonts//Almarai-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Almarai";
+  src: url(/assets/ui/fonts//Almarai-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Almarai";
+  src: url(/assets/ui/fonts//Almarai-ExtraBold.ttf) format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Almarai";
+  src: url(/assets/ui/fonts//Almarai-Light.ttf) format("truetype");
+  font-weight: lighter;
+  font-style: normal;
+}
+:root,
+[data-theme=light] {
+  --primary:#383838;
+  --secondary:#e46b33;
+  --secondary-color: var(--secondary);
+  --primary-color: var(--primary);
+  --btn-height: 28px;
+  --dark-green-avatar-color: #14005b;
+  --checkbox-right-margin: var(--margin-xs);
+  --checkbox-size: 14px;
+  --checkbox-focus-shadow: 0 0 0 2px var(--gray-300);
+  --checkbox-gradient: linear-gradient( 180deg, --secondary-color, -124.51%, var(--primary) 100% );
+  --font-stack:
+    "Inter",
+    "-apple-system",
+    "BlinkMacSystemFont",
+    "Segoe UI",
+    "Roboto",
+    "Almarai",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+  --font-family-sans-serif:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Almarai",
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+  --font-family-monospace:
+    SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    "Liberation Mono",
+    "Almarai",
+    "Courier New",
+    monospace;
+}
+.splash img {
+  max-width: 100% !important;
+}
+.chart-container {
+  position: relative;
+  font-family: var(--font-stack);
+}
+.btn-primary:not(:disabled):not(.disabled):active,
+div#driver-popover-item .driver-popover-footer button.driver-next-btn:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+div#driver-popover-item .driver-popover-footer button.driver-next-btn:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle,
+div#driver-popover-item .driver-popover-footer .show > button.dropdown-toggle.driver-next-btn {
+  background-color: var(--primary);
+}
+.btn-primary:focus,
+div#driver-popover-item .driver-popover-footer button.driver-next-btn:focus,
+.btn-primary.focus,
+div#driver-popover-item .driver-popover-footer button.focus.driver-next-btn {
+  border-color: var(--primary);
+  box-shadow:
+    inset 0 1px 0 rgba(30, 41, 59, 0.15),
+    0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 0 2px rgba(30, 41, 59, 0.5);
+}
+.list-paging-area .btn-group .btn-paging.btn-info,
+.footnote-area .btn-group .btn-paging.btn-info {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  color: var(--white);
+  font-weight: var(--text-bold);
+}
+#navbar-breadcrumbs a {
+  color: #393737;
+}
+/*# sourceMappingURL=ui.bundle.UBXNTRLN.css.map */

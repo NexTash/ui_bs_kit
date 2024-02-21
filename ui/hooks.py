@@ -7,6 +7,16 @@ app_license = "MIT"
 
 # Includes in <head>
 # ------------------
+app_logo_url = "/assets/ui/images/logo.png"
+
+website_context = {
+    "favicon": "/assets/ui/images/logo.png",
+    "splash_image": "/assets/ui/images/logo.png",
+}
+
+
+app_include_css = ["ui.bundle.css"]
+app_include_js = "ui.bundle.js"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/ui/css/ui.css"
@@ -36,7 +46,7 @@ app_license = "MIT"
 # ----------
 
 # application home page (will override Website Settings)
-# home_page = "login"
+home_page = "login"
 
 # website user home page (by Role)
 # role_home_page = {
@@ -63,6 +73,7 @@ app_license = "MIT"
 
 # before_install = "ui.install.before_install"
 # after_install = "ui.install.after_install"
+after_migrate = "ui.migrate.after_migrate"
 
 # Uninstallation
 # ------------
